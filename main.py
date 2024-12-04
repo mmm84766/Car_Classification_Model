@@ -37,11 +37,11 @@ def IoU(y_true, y_pred):
 
 def load_the_pretrained_model():
     # Loading the tensorflow saved model
-    model = k3.models.load_model(r'../model/mobile_net_combi_with_aug_1_10-acc_0.8687-IoU_0.8758',
+    model = k3.models.load_model(r'model/mobile_net_combi_with_aug_1_10-acc_0.8687-IoU_0.8758',
                                  custom_objects={'IoU': IoU})
 
     # Loading the class label maps with integer class
-    class_names = pickle.load(open(r'../model/class_names.pickle', "rb"))
+    class_names = pickle.load(open(r'model/class_names.pickle', "rb"))
 
     return model, class_names
 
