@@ -57,8 +57,7 @@ print(response.json())
 ### Image Processing Techniques
 Resizing:
 
-All images are resized to a fixed resolution (e.g., 224x224 or 256x256 pixels) to ensure consistent input size for the model.
-This reduces the computational burden and speeds up training and inference.
+All images are resized to a fixed resolution 224x224 to ensure consistent input size for the model.
 
 Normalization:
 
