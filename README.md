@@ -74,8 +74,12 @@ Augmentation techniques like random rotations, flips, zooming, and cropping are 
 ### Hyperparameter Tuning
 
 Learning Rate: Optimized to find the rate at which the model converges.
+
 Batch Size: Adjusted based on memory constraints and model performance.
+
 Number of Epochs: Increased until model performance stabilized.
+
 Model Architecture: A lightweight model such as MobileNetV2 or EfficientNet was used for efficient training.
+
 Dropout Rate: Used to prevent overfitting during training.
 
