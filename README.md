@@ -54,3 +54,28 @@ print(response.json())
   }
 }
 ```
+### Image Processing Techniques
+Resizing:
+
+All images are resized to a fixed resolution (e.g., 224x224 or 256x256 pixels) to ensure consistent input size for the model.
+This reduces the computational burden and speeds up training and inference.
+
+Normalization:
+
+Image pixel values are normalized to a range of [0, 1] by dividing by 255.
+This helps the model converge faster and achieve better results.
+
+### Data Balancing
+
+Data Augmentation:
+
+Augmentation techniques like random rotations, flips, zooming, and cropping are used during training to increase the variability of the dataset and prevent overfitting.
+
+### Hyperparameter Tuning
+
+Learning Rate: Optimized to find the rate at which the model converges.
+Batch Size: Adjusted based on memory constraints and model performance.
+Number of Epochs: Increased until model performance stabilized.
+Model Architecture: A lightweight model such as MobileNetV2 or EfficientNet was used for efficient training.
+Dropout Rate: Used to prevent overfitting during training.
+
