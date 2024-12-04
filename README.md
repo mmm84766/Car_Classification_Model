@@ -12,7 +12,7 @@ Install the requirements.txt in api folder and then
 ```
 $ streamlit run app.py 
 ```
-### Use web app with Streamlit
+### Use Fast Api 
 ```
 $ python main.py
 ```
