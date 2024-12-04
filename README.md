@@ -1,12 +1,21 @@
 ## Car-model-classification-and-localization api
 We can get the prediction output by sending the http request to the api endpoint
 
-### To host api
+### Run this Api need to install Library using requirements file
 Install the requirements.txt in api folder and then 
 ```
-$ uvicorn api.main:app --reload
+$ pip install -r  requirements.txt
 ```
 
+### Use web app with Streamlit
+Install the requirements.txt in api folder and then 
+```
+$ streamlit run app.py 
+```
+### Use web app with Streamlit
+```
+$ python main.py
+```
 ### Endpoint
 endpoint : http://127.0.0.1:8000
 
