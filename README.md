@@ -1,4 +1,4 @@
-## Car-model-classification-and-localization api
+## Car-model-classification api
 We can get the prediction output by sending the http request to the api endpoint
 
 ### Run this Api need to install Library using requirements file
